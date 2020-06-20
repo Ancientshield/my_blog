@@ -19,7 +19,7 @@ defaultContentLanguage = "zh-tw"           # Default language to use
   languageCode = "en"
 
 [author]                  # essential                     # 必需
-  name = "Ancientsword"
+  name = "by Ancientsword"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
