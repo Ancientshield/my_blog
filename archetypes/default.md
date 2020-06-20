@@ -1,11 +1,23 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
+lastmod: {{ .Date }}
 draft: false
-tags:
-author: "Ancientsword"
-comment: false
+keywords: []
+description: ""
+tags: []
+categories: []
+author: ""
+
+# You can also close(false) or open(true) something for this content.
+# P.S. comment can only be closed
+comment: true
 toc: false
+autoCollapseToc: false
+# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
+contentCopyright: false
 reward: false
-mathjax: true
+mathjax: false
 ---
+
+<!--more-->
